@@ -6,7 +6,7 @@
   --content-width: clamp(23.438rem, 30vw + 16.406rem, 43.75rem);
   --header-padding-block: clamp(7.5rem, 7.148rem + 1.502vw, 8rem);
   --header-logo-size: clamp(3.063rem, 2.358rem + 3.005vw, 4.063rem);
-  --header-title-size: clamp(0.875rem, 0.699rem + 0.751vw, 1.125rem);
+  --header-title-size: 23px;
   --header-gap: clamp(1.25rem, 1.074rem + 0.751vw, 1.5rem);
   --label-stroke-color: #fff;
   --accent-color: #000;
@@ -14,6 +14,10 @@
   --button-bg-color: #fff;
   --contour-color: #000;
   --animation-fill-color: #ff0000;
+  --bg-color-white:#fff;
+  --bg-black-white:#000;
+  --text-color:#000;
+  --normal-text-weight:400;
   --background-image:
     repeating-linear-gradient(
       to right,
