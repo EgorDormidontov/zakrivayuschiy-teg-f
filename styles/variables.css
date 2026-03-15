@@ -1,8 +1,8 @@
 :root {
   --main-font: 'Inter', sans-serif;
   --accent-font: 'PressStart2P', fantasy;
-  --text-weight: 400;
-  --title-weight: 700;
+  --text-weight: 410;
+  --title-weight: 715;
   --content-width: clamp(23.438rem, 30vw + 16.406rem, 43.75rem);
   --header-padding-block: clamp(7.5rem, 7.148rem + 1.502vw, 8rem);
   --header-logo-size: clamp(3.063rem, 2.358rem + 3.005vw, 4.063rem);

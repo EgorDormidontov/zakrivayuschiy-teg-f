@@ -24,7 +24,7 @@
   padding-block: var(--header-padding-block);
   margin-block-start: 100px;
   margin-block-end: 100px;
-  border: 2px solid #000;
+  border: 2px solid var(--accent-color);
   background-color: #fff;
   text-align: center;
 }
@@ -52,7 +52,7 @@
 }
 
 .card {
-  border: 2px solid #000;
+  border: 2px solid var(--accent-color);
   background-color: #fff;
 }
 
@@ -65,8 +65,8 @@
 
 .card__image-wrapper {
   position: relative;
-  border-top: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-top: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .card__image {
@@ -157,7 +157,7 @@
 .button {
   position: relative;
   overflow: hidden;
-  border: 2px solid #000;
+  border: 2px solid var(--accent-color);
   background-color: var(--button-bg-color);
   font-family: var(--accent-font);
   font-size: 14px;
@@ -255,7 +255,7 @@
 .dialog {
   inline-size: clamp(21.313rem, 20.344rem + 4.131vw, 22.688rem);
   max-inline-size: 100%;
-  border: 2px solid #000;
+  border: 2px solid var(--accent-color);
   padding: 30px;
   background-color: #fff;
 }
